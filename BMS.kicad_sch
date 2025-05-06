@@ -6258,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Value" "TSR_1-3450"
+		(property "Value" "K7805M-1000R3"
 			(at 361.95 48.26 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.tracopower.com/products/tsr1.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2306121442_YLPTEC-K7805M-1000R3_C5369649.pdf"
 			(at 361.95 54.61 0)
 			(effects
 				(font
@@ -6295,13 +6295,29 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C132362"
+		(property "LCSC" "C5369649"
 			(at 361.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "K7805M-1000R3"
+			(at 361.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YPLTEC"
+			(at 361.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
