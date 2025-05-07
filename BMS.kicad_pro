@@ -471,6 +471,16 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -478,7 +488,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+*V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*V_{OUT}"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -662,7 +681,7 @@
     ],
     [
       "aff9ba91-cad3-4d4c-9149-201fa529c26c",
-      "CAN_1"
+      "Isolated_CAN_1"
     ],
     [
       "edc0126c-a175-43ed-b1dc-d739fe129ca0",
@@ -670,11 +689,31 @@
     ],
     [
       "3a458795-9d08-4781-9e4c-3953e059be1d",
-      "UART_1"
+      "Isolated_UART"
+    ],
+    [
+      "29683fdb-af89-4404-82da-8f039745472d",
+      "Overcurrent_Protection1"
+    ],
+    [
+      "eceef6bd-94af-4136-a723-b65ef3b0c8d6",
+      "High Side Drivers"
     ],
     [
       "cdaff6ef-6933-443e-a2a0-6e49d77f85e1",
       "CAN Transceiver"
+    ],
+    [
+      "edb12572-d726-408e-abc9-877ec2f4dc08",
+      "Overcurrent_Protection"
+    ],
+    [
+      "c3056ab1-5cdf-4364-9ad2-3f439474eb1e",
+      "Overcurrent_Protection2"
+    ],
+    [
+      "f3360caf-e324-45d1-b704-f30b29e9918c",
+      "Overcurrent_Protection3"
     ]
   ],
   "text_variables": {}

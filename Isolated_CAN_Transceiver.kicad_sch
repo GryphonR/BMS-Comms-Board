@@ -1387,17 +1387,6 @@
 		)
 		(uuid "075a3f84-9229-478a-b627-3e9921be9529")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 201.93 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ad3f459-3544-48cd-b09c-12bae8e40898")
-	)
 	(hierarchical_label "Logic GND"
 		(shape input)
 		(at 85.09 82.55 180)
@@ -1433,7 +1422,7 @@
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape bidirectional)
-		(at 201.93 63.5 180)
+		(at 201.93 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1452,6 +1441,17 @@
 			(justify right)
 		)
 		(uuid "43a696d9-6dca-48ee-8865-cd62d4404166")
+	)
+	(hierarchical_label "CAN_LOW"
+		(shape bidirectional)
+		(at 201.93 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44cc6ceb-0219-4865-8f5f-dad23e58b30d")
 	)
 	(hierarchical_label "ISO_GND"
 		(shape input)
@@ -1971,7 +1971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef539c47-daab-4639-85a9-ed230abaf289")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -2075,7 +2075,7 @@
 		(instances
 			(project "BMS"
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/aff9ba91-cad3-4d4c-9149-201fa529c26c"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)

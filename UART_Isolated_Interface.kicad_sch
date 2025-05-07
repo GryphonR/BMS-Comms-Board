@@ -1040,7 +1040,7 @@
 		)
 		(uuid "51ef407a-7392-41c8-98fd-b5064a3931c4")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "ISO_GND"
 		(shape input)
 		(at 133.35 86.36 0)
 		(effects
@@ -1062,7 +1062,7 @@
 		)
 		(uuid "571577a9-2111-4c2c-b536-a8b50ea10662")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "ISO_GND"
 		(shape input)
 		(at 134.62 109.22 0)
 		(effects
@@ -1128,7 +1128,7 @@
 		)
 		(uuid "a1e62bef-79a4-470d-86aa-e0ec5e655f92")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "ISO_GND"
 		(shape input)
 		(at 171.45 99.06 0)
 		(effects
