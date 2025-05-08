@@ -1,0 +1,672 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9dc18f7b-b9e7-44dd-939a-1e50b174543d")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22836da0-2bcc-42a0-ae7f-d27cf365de38")
+	)
+	(wire
+		(pts
+			(xy 138.43 48.26) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3187710a-9af7-404a-96cd-2230650d83c3")
+	)
+	(wire
+		(pts
+			(xy 138.43 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350eac2f-1744-4c28-8dd1-4e562421ab04")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351ea33f-817a-4abd-9ea8-64ac477155a0")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39127245-f90c-4e66-8985-2ea4c38f2c43")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44849324-32ed-43eb-b09e-1bf3a255ff29")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 147.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f1f535-9a80-4561-b1d1-2bda564989c2")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dcf187-0820-430b-887e-3386f1dec549")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71aa0727-f16e-4f27-9762-bda30456318b")
+	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82287ee0-d56c-4726-93a4-df4f25b2270d")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c89eda-ad0a-470c-a285-f538623a3f1a")
+	)
+	(wire
+		(pts
+			(xy 138.43 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa98aea-12f7-4165-96be-32b7919312dc")
+	)
+	(wire
+		(pts
+			(xy 105.41 43.18) (xy 115.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d8ab8f-19c1-4e71-add3-1477e933e5a8")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9c1354-bb71-4dbe-9015-5759dacd2624")
+	)
+	(wire
+		(pts
+			(xy 138.43 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fbe6d4-44aa-4f13-a56b-7fa954261942")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff727b47-417a-4b15-9e3e-8f2d7d8b4ec8")
+	)
+	(hierarchical_label "In1"
+		(shape input)
+		(at 105.41 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "036c2f07-b972-4a54-a6b7-d21c35727b25")
+	)
+	(hierarchical_label "Out3"
+		(shape output)
+		(at 147.32 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13808360-eebe-4802-90a6-7f6d0f30a6f3")
+	)
+	(hierarchical_label "Out4"
+		(shape output)
+		(at 147.32 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "147b6d32-56ac-4f2d-8b35-86e011f46a29")
+	)
+	(hierarchical_label "In2"
+		(shape input)
+		(at 105.41 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d87e6b5-f49e-4180-9108-07a529e4243f")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 105.41 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30828ba6-4ebe-4029-8d7d-26b5b75d56c5")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 105.41 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b5348a7-81b0-46fd-bc6c-8f14a2fa8e0b")
+	)
+	(hierarchical_label "Out1"
+		(shape output)
+		(at 147.32 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bcc1e4f-ff17-4569-9684-b696e69bc821")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 147.32 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4037b83c-276b-4183-92fd-1435f024b313")
+	)
+	(hierarchical_label "In4"
+		(shape input)
+		(at 105.41 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53aeff37-5d35-468f-bd08-324d2eca9504")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 147.32 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5eac8628-56ef-4c60-80bd-6ebbf169b7d7")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 105.41 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62a255c3-66d4-4088-92b6-3758c6b02f04")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 147.32 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90b1ee66-ebe7-4d9b-ba5f-3d93e2263edf")
+	)
+	(hierarchical_label "Out2"
+		(shape output)
+		(at 147.32 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b421de48-27ce-47e7-8868-6701b6fff59e")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 105.41 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7fd109c-fedc-4d4d-a31b-b23b136f94a6")
+	)
+	(hierarchical_label "In3"
+		(shape input)
+		(at 105.41 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8c3b913-f0a8-4b97-a422-27e47bab5ffe")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 147.32 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df723512-3b05-40c1-9a94-557dffd27fa3")
+	)
+	(sheet
+		(at 115.57 110.49)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "534ae0a9-e033-471d-ab4c-668e78bff240")
+		(property "Sheetname" "10A Low Side Drive3"
+			(at 115.57 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10A Low Side Driver.kicad_sch"
+			(at 115.57 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 138.43 123.19 0)
+			(uuid "170c05e3-3726-4744-8b53-861a85463a67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Logic_Control" input
+			(at 115.57 118.11 180)
+			(uuid "5f714a7f-41a8-4f75-b42a-90f491263984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LSD" input
+			(at 138.43 119.38 0)
+			(uuid "9bf6ed05-9df7-46f2-b0d4-8b02baefa708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 115.57 114.3 180)
+			(uuid "170fa2c0-c694-42f7-9548-7c2242cccba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/3c6788b6-9eaa-4dc7-9b1b-c672529b8bdf"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 86.36)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fb9c1b2-80f3-454d-a189-500ef67547a6")
+		(property "Sheetname" "10A Low Side Drive2"
+			(at 115.57 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10A Low Side Driver.kicad_sch"
+			(at 115.57 102.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 138.43 99.06 0)
+			(uuid "33d271fc-228b-447e-9da1-ff1e20997227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Logic_Control" input
+			(at 115.57 93.98 180)
+			(uuid "ad1b0acc-140b-4064-b185-0cb2d713e63b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LSD" input
+			(at 138.43 95.25 0)
+			(uuid "9eac1481-d9ef-4e5b-8e40-e624db8e83e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 115.57 90.17 180)
+			(uuid "6ce176e6-b1c6-4a43-a19c-021620bbfa0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/3c6788b6-9eaa-4dc7-9b1b-c672529b8bdf"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 62.23)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74428701-c731-4f1a-9259-da751d3a6d79")
+		(property "Sheetname" "10A Low Side Drive1"
+			(at 115.57 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10A Low Side Driver.kicad_sch"
+			(at 115.57 78.6896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 138.43 74.93 0)
+			(uuid "7840d044-5f10-406f-a33b-44047bab07ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Logic_Control" input
+			(at 115.57 69.85 180)
+			(uuid "0f724a81-0ff3-4780-9e7c-d9e7717718f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LSD" input
+			(at 138.43 71.12 0)
+			(uuid "494bab55-1a56-4b0d-9245-dcb3889980a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 115.57 66.04 180)
+			(uuid "a622cebb-2cf9-463a-809a-8784cb02258a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/3c6788b6-9eaa-4dc7-9b1b-c672529b8bdf"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 39.37)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa608db7-6a72-41f7-89a5-ea3e1c7578b1")
+		(property "Sheetname" "10A Low Side Drive"
+			(at 115.57 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10A Low Side Driver.kicad_sch"
+			(at 115.57 55.8296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 138.43 52.07 0)
+			(uuid "7df9fe46-dbd0-4e74-9a1f-9742f4653007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Logic_Control" input
+			(at 115.57 46.99 180)
+			(uuid "6801c3d6-b6cc-4c8b-8989-3d53f43c22dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LSD" input
+			(at 138.43 48.26 0)
+			(uuid "f21b9aae-f2b2-464a-9696-c1caf12c368e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 115.57 43.18 180)
+			(uuid "d916dd03-932c-443c-982f-e6aeae8d531e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/3c6788b6-9eaa-4dc7-9b1b-c672529b8bdf"
+					(page "12")
+				)
+			)
+		)
+	)
+)
