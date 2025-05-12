@@ -716,24 +716,12 @@
       "Overcurrent_Protection3"
     ],
     [
-      "74428701-c731-4f1a-9259-da751d3a6d79",
-      "10A Low Side Drive1"
+      "5d52444c-52e3-469b-bd75-95ef662a88d6",
+      "12V_Output_Protection"
     ],
     [
-      "3c6788b6-9eaa-4dc7-9b1b-c672529b8bdf",
-      "Low Side Drivers"
-    ],
-    [
-      "aa608db7-6a72-41f7-89a5-ea3e1c7578b1",
-      "10A Low Side Drive"
-    ],
-    [
-      "6fb9c1b2-80f3-454d-a189-500ef67547a6",
-      "10A Low Side Drive2"
-    ],
-    [
-      "534ae0a9-e033-471d-ab4c-668e78bff240",
-      "10A Low Side Drive3"
+      "7b52e59a-a4d5-43e1-8381-42b01d314297",
+      "4 Smart Low Side Driver"
     ]
   ],
   "text_variables": {}
