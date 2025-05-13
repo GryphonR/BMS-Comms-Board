@@ -3014,7 +3014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 89.535 0)
 			(effects
 				(font
@@ -3024,7 +3024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 94.488 0)
 			(effects
 				(font
@@ -3042,7 +3042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 91.44 0)
 			(effects
 				(font
@@ -3051,7 +3051,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 91.44 0)
 			(effects
 				(font
@@ -3060,7 +3060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 91.44 0)
 			(effects
 				(font
@@ -3194,7 +3194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 34.925 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 39.878 0)
 			(effects
 				(font
@@ -3222,7 +3222,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 36.83 0)
 			(effects
 				(font
@@ -3231,7 +3231,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 36.83 0)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 36.83 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 52.705 0)
 			(effects
 				(font
@@ -3306,7 +3306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 57.658 0)
 			(effects
 				(font
@@ -3324,7 +3324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 54.61 0)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 54.61 0)
 			(effects
 				(font
@@ -3342,7 +3342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 54.61 0)
 			(effects
 				(font
@@ -3398,7 +3398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 34.925 0)
 			(effects
 				(font
@@ -3408,7 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 39.878 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 36.83 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 36.83 0)
 			(effects
 				(font
@@ -3444,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 36.83 0)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 70.485 0)
 			(effects
 				(font
@@ -3510,7 +3510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 75.438 0)
 			(effects
 				(font
@@ -3528,7 +3528,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 72.39 0)
 			(effects
 				(font
@@ -3537,7 +3537,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 72.39 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 72.39 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 108.585 0)
 			(effects
 				(font
@@ -3768,7 +3768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 113.538 0)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -3804,7 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251151_Diodes-Incorporated-BAT46W-7-F_C83152.pdf"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4052,6 +4052,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C83152"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT46W-7-F"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4104,7 +4131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 52.705 0)
 			(effects
 				(font
@@ -4114,7 +4141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 57.658 0)
 			(effects
 				(font
@@ -4132,7 +4159,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -4141,7 +4168,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -4150,7 +4177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -4206,7 +4233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 70.485 0)
 			(effects
 				(font
@@ -4216,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 75.438 0)
 			(effects
 				(font
@@ -4234,7 +4261,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 72.39 0)
 			(effects
 				(font
@@ -4243,7 +4270,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 72.39 0)
 			(effects
 				(font
@@ -4252,7 +4279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 72.39 0)
 			(effects
 				(font
@@ -4386,7 +4413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 126.365 0)
 			(effects
 				(font
@@ -4396,7 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 131.318 0)
 			(effects
 				(font
@@ -4414,7 +4441,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -4423,7 +4450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -4432,7 +4459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -4681,7 +4708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 108.585 0)
 			(effects
 				(font
@@ -4691,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 113.538 0)
 			(effects
 				(font
@@ -4709,7 +4736,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -4718,7 +4745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -4727,7 +4754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -5210,7 +5237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 144.145 0)
 			(effects
 				(font
@@ -5220,7 +5247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 149.098 0)
 			(effects
 				(font
@@ -5238,7 +5265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 146.05 0)
 			(effects
 				(font
@@ -5247,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 146.05 0)
 			(effects
 				(font
@@ -5256,7 +5283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 146.05 0)
 			(effects
 				(font
@@ -5390,7 +5417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 266.065 126.365 0)
 			(effects
 				(font
@@ -5400,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 262.89 131.318 0)
 			(effects
 				(font
@@ -5418,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 262.89 128.27 0)
 			(effects
 				(font
@@ -5427,7 +5454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 262.89 128.27 0)
 			(effects
 				(font
@@ -5436,7 +5463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 262.89 128.27 0)
 			(effects
 				(font
@@ -5718,7 +5745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 144.145 0)
 			(effects
 				(font
@@ -5728,7 +5755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 149.098 0)
 			(effects
 				(font
@@ -5746,7 +5773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 146.05 0)
 			(effects
 				(font
@@ -5755,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 146.05 0)
 			(effects
 				(font
@@ -5764,7 +5791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 146.05 0)
 			(effects
 				(font
@@ -5820,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 227.965 89.535 0)
 			(effects
 				(font
@@ -5830,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251001_Diodes-Incorporated-BAT54ST-7-F_C134414.pdf"
 			(at 224.79 94.488 0)
 			(effects
 				(font
@@ -5848,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47546"
+		(property "LCSC" "C134414"
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -5857,7 +5884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT54ST-7-F"
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -5866,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 224.79 91.44 0)
 			(effects
 				(font

@@ -1393,7 +1393,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251151_Diodes-Incorporated-BAT46W-7-F_C83152.pdf"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -1436,6 +1436,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C83152"
+			(at 130.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BAT46W-7-F"
+			(at 130.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 130.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
