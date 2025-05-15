@@ -1129,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 89.662 90)
 			(effects
 				(font
@@ -1156,7 +1156,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 115.57 91.44 0)
 			(effects
 				(font
@@ -1393,7 +1393,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251151_Diodes-Incorporated-BAT46W-7-F_C83152.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251002_Diodes-Incorporated-SDM20U40-7_C139439.pdf"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -1438,7 +1438,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83152"
+		(property "LCSC" "C139439"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -1446,7 +1446,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT46W-7-F"
+		(property "MPN" "SDM20U40-7"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -1504,7 +1504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 87.122 90)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 115.57 88.9 0)
 			(effects
 				(font

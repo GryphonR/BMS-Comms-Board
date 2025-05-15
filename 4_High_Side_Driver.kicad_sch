@@ -2991,8 +2991,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "050dee6e-a16b-4521-a31b-d04996f892c5")
@@ -3093,8 +3093,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "0fa9b7bd-78a1-4857-8c5e-c0dbff5680d3")
 		(property "Reference" "R26"
@@ -3114,7 +3114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 102.362 90)
 			(effects
 				(font
@@ -3141,7 +3141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -3171,8 +3171,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11dc55f6-0073-45f7-b672-407fed6e95ef")
@@ -3579,8 +3579,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "5d86c44a-06b9-4826-b6f9-99fa43b961e0")
 		(property "Reference" "R27"
@@ -3600,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 104.902 90)
 			(effects
 				(font
@@ -3627,7 +3627,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 139.7 106.68 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 92.202 90)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -3735,8 +3735,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61e23c40-2c6f-482d-ab31-2644ac3c9b23")
@@ -3858,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 89.662 90)
 			(effects
 				(font
@@ -3885,7 +3885,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -3915,8 +3915,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "66db6d80-0efc-4b3c-a5e1-69a88da4ead0")
 		(property "Reference" "R17"
@@ -3936,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 97.282 90)
 			(effects
 				(font
@@ -3963,7 +3963,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251151_Diodes-Incorporated-BAT46W-7-F_C83152.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412251002_Diodes-Incorporated-SDM20U40-7_C139439.pdf"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83152"
+		(property "LCSC" "C139439"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4069,7 +4069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BAT46W-7-F"
+		(property "MPN" "SDM20U40-7"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4312,8 +4312,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "786c8f49-d97e-4c01-999c-71ba67de4e00")
 		(property "Reference" "R21"
@@ -4333,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 84.582 90)
 			(effects
 				(font
@@ -4390,8 +4390,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810a2264-b47b-4be7-a3ea-3f7f25012691")
@@ -4513,7 +4513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 92.202 90)
 			(effects
 				(font
@@ -4540,7 +4540,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 50.8 93.98 0)
 			(effects
 				(font
@@ -4685,8 +4685,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f047f6-e976-40d0-bc25-633de74e4860")
@@ -4787,8 +4787,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "993cf0b7-3585-4327-9a07-9d3b577bd8c2")
 		(property "Reference" "R20"
@@ -4808,7 +4808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 104.902 90)
 			(effects
 				(font
@@ -4835,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -4865,8 +4865,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "9d14c6c5-d700-4fe9-8565-ce182684bbe3")
 		(property "Reference" "R19"
@@ -4886,7 +4886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 102.362 90)
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 89.662 90)
 			(effects
 				(font
@@ -4991,7 +4991,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -5136,8 +5136,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "bbc7f962-59c8-465c-abea-9ef689115ca1")
 		(property "Reference" "R18"
@@ -5157,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 99.822 90)
 			(effects
 				(font
@@ -5184,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -5214,8 +5214,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "becc4ffa-7796-4a6f-bcbf-4a654e2a8533")
@@ -5316,8 +5316,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "c451c767-40ba-49d4-b600-adcc270c613d")
 		(property "Reference" "R24"
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 97.282 90)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 139.7 99.06 0)
 			(effects
 				(font
@@ -5394,8 +5394,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c73a15cb-4f33-4230-8dac-06068c026f2b")
@@ -5566,8 +5566,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "f2014c5e-59c5-4772-a732-172d02628927")
 		(property "Reference" "R25"
@@ -5587,7 +5587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 99.822 90)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25756"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -5644,8 +5644,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "f8b158d9-c8a2-45b6-8935-b7fc00f90141")
 		(property "Reference" "R14"
@@ -5665,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 84.582 90)
 			(effects
 				(font
@@ -5722,8 +5722,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9722466-2b22-4e1b-aa49-5ec6d9d431f3")
@@ -5824,8 +5824,8 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe06f913-33e2-4a8e-8eee-fd3b49b3bae1")
