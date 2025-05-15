@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -116,11 +117,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.22,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -129,8 +130,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.2,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -207,7 +208,7 @@
         }
       },
       "via_dimensions": [],
-      "zones_allow_external_fillets": true
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -216,23 +217,7 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [
-      {
-        "bottomLayer": 2,
-        "enabled": true,
-        "topLayer": 0
-      },
-      {
-        "bottomLayer": 4,
-        "enabled": true,
-        "topLayer": 0
-      },
-      {
-        "bottomLayer": 6,
-        "enabled": true,
-        "topLayer": 0
-      }
-    ],
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -472,7 +457,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.17,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -484,8 +469,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.4,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -495,8 +480,8 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -722,6 +707,10 @@
     [
       "edb12572-d726-408e-abc9-877ec2f4dc08",
       "Overcurrent_Protection"
+    ],
+    [
+      "9d93b8a4-aa8b-48c1-bfa0-dc1a7f04dbe5",
+      "Overcurrent_Protection4"
     ],
     [
       "c3056ab1-5cdf-4364-9ad2-3f439474eb1e",
