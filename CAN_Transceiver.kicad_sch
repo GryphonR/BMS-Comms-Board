@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "bf540443-9ceb-46e5-b216-22ae0c00e767")
 	(paper "A4")
+	(title_block
+		(title "BMS Comms Master Board")
+		(date "2025-05-21")
+		(rev "0.1")
+		(company "eChook")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

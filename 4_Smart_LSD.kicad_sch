@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "66b97a49-0372-4b73-b79c-939820de567d")
 	(paper "A4")
+	(title_block
+		(title "BMS Comms Master Board")
+		(date "2025-05-21")
+		(rev "0.1")
+		(company "eChook")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -1935,6 +1941,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C222209"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "97bb2984-f56d-42da-928f-51058a10f300")
 		)
@@ -2253,6 +2267,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C222209"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"

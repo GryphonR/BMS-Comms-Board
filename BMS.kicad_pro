@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -707,10 +707,6 @@
     [
       "edb12572-d726-408e-abc9-877ec2f4dc08",
       "Overcurrent_Protection"
-    ],
-    [
-      "9d93b8a4-aa8b-48c1-bfa0-dc1a7f04dbe5",
-      "Overcurrent_Protection4"
     ],
     [
       "c3056ab1-5cdf-4364-9ad2-3f439474eb1e",

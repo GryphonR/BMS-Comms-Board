@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "07f1d3cb-aa3c-47b1-990b-7454e6d52c80")
 	(paper "A4")
+	(title_block
+		(title "BMS Comms Master Board")
+		(date "2025-05-21")
+		(rev "0.1")
+		(company "eChook")
+	)
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers
@@ -749,10 +755,6 @@
 					(reference "U11")
 					(unit 1)
 				)
-				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/9d93b8a4-aa8b-48c1-bfa0-dc1a7f04dbe5"
-					(reference "U17")
-					(unit 1)
-				)
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/c3056ab1-5cdf-4364-9ad2-3f439474eb1e"
 					(reference "U12")
 					(unit 1)
@@ -861,10 +863,6 @@
 					(reference "R31")
 					(unit 1)
 				)
-				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/9d93b8a4-aa8b-48c1-bfa0-dc1a7f04dbe5"
-					(reference "R61")
-					(unit 1)
-				)
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/c3056ab1-5cdf-4364-9ad2-3f439474eb1e"
 					(reference "R32")
 					(unit 1)
@@ -935,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 185.42 85.09 90)
 			(effects
 				(font
@@ -954,10 +952,6 @@
 			(project "BMS"
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/29683fdb-af89-4404-82da-8f039745472d"
 					(reference "D24")
-					(unit 1)
-				)
-				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/9d93b8a4-aa8b-48c1-bfa0-dc1a7f04dbe5"
-					(reference "D43")
 					(unit 1)
 				)
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/c3056ab1-5cdf-4364-9ad2-3f439474eb1e"
