@@ -31,17 +31,22 @@ IO Overview:
 
 
 A little more detail:  
-- Electronically isolated communication busses for battery slave module communications.
-    - Isolated 5V UART port for Tesla Module Communications
-    - Isolated 600mA 5V supply 
-    - Isolated CAN (Mapped to Teensy CAN1) Connection for (most other) battery modules that communicate over CAN
-- Two non-isolated CAN busses, one exposed on the RJ-45 connector (CAN3), a second exposed on the J5 Auxillary Comms connector (CAN2)
-- One RS-485/MODBUS interface (CAN2 **or** RS-485 is possible, as they use the same Teensy 4.1 I/O pins. Selectable via solder jumpers)
-- RJ-45 connector with VICTRON compatible pin out as default, but 'Pick Your Own Pinout' pads on the bottom of the board to allow this to be modified to any application with a bit of soldering.
-- 4 High Impedence digital inputs, up to 24V.
-- 4 12V High Side Driver outputs, each with voltage, current and temperature monitoring, automatic over temperature, short circuit protection and error state reporting.
-- 4 Low Side Driver outputs with over current/short circuit protection, over temperature protecton, and error state reporting.
-- 3
+- Networks:
+    - Electronically isolated communication busses for battery slave module communications.
+        - Isolated 5V UART port for Tesla Module Communications
+        - Isolated 600mA 5V supply 
+        - Isolated CAN (Mapped to Teensy CAN1) Connection for (most other) battery modules that communicate over CAN
+    - Two non-isolated CAN busses, one exposed on the RJ-45 connector (CAN3), a second exposed on the J5 Auxillary Comms connector (CAN2)
+    - One RS-485/MODBUS interface (CAN2 **or** RS-485 is possible, as they use the same Teensy 4.1 I/O pins. Selectable via solder jumpers)
+    - RJ-45 connector with VICTRON compatible pin out as default, but 'Pick Your Own Pinout' pads on the bottom of the board to allow this to be modified to any application with a bit of soldering.
+- I/O
+    - 4 High Impedence digital inputs, up to 24V.
+    - 4 12V High Side Driver outputs, each with voltage, current and temperature monitoring, automatic over temperature, short circuit protection and error state reporting.
+    - 4 PWM Capable Low Side Driver outputs with over current/short circuit protection, over temperature protecton, and error state reporting.
+- Voltage Supply
+    - 5V 500mA Isolated voltage supply for Tesla BMS Boards. Short circuit protected with red fault LED
+    - 3 5V 500mA Voltage supplies on J2, J4 and J5, each short circuit protected with red fault LED
+    - 3 12v Supplies on J4, Pins 10 and 11 sharing one short circuit protection ciruit, Pin 9 with it's own short circuit protection circuit.
 
 ## Firmware
-Due to the swap to a Teensy 4.1, expanded capabilities of the board, and a few pinout changes that go along with both of those, this board is not directly compatible with the SimpBMS code. There is an updated fork of the TeslaBMSV2 firmware adapted for this board here **TODO - link**. Past that, you're on your own!
+Due to the swap to a Teensy 4.1, expanded capabilities of the board, and a few pinout changes that go along with both of those, this board is not directly compatible with the SimpBMS code. There is an updated fork of the TeslaBMSV2 firmware adapted for this board here **TODO - link**. 
