@@ -9872,6 +9872,16 @@
 		)
 		(uuid "7f800748-76d1-47f8-be75-766e6a8eb2da")
 	)
+	(text "TODO - RX/TX2 Aren't connected and we're out of pins!"
+		(exclude_from_sim no)
+		(at 480.822 320.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f9f372e-8a67-41e4-83bf-a8ec3f5cbfa8")
+	)
 	(text "Active LEDs"
 		(exclude_from_sim no)
 		(at 120.65 85.725 0)
@@ -15833,12 +15843,12 @@
 		(uuid "afe20069-7f39-43f6-873c-a97485a333cc")
 	)
 	(label "ERROR_LED"
-		(at 166.37 168.91 180)
+		(at 69.85 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b0509537-79d3-4b58-87c2-c96c60a32b55")
 	)
@@ -16073,12 +16083,12 @@
 		(uuid "d8215325-2c07-462b-999f-5730de44394c")
 	)
 	(label "HSD_SEL_0_A"
-		(at 69.85 168.91 0)
+		(at 166.37 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d8d83864-fb2f-47fd-9b1b-2d81619f7c17")
 	)
