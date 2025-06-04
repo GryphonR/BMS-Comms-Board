@@ -9722,6 +9722,16 @@
 		)
 		(uuid "0d45a9f5-cd91-4f3b-815f-37a6573e5fa1")
 	)
+	(text "TODO: Multisense signals need to go to Analogue INputs!"
+		(exclude_from_sim no)
+		(at 74.676 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "170920d1-6621-401f-9651-694c380825f8")
+	)
 	(text "CAN Transceivers - Non Isolated"
 		(exclude_from_sim no)
 		(at 22.86 255.905 0)
@@ -10022,6 +10032,16 @@
 			)
 		)
 		(uuid "d9366f4e-1b89-4205-a70b-85ca6bd9fc4f")
+	)
+	(text "TODO: Free up some serial pins do CAN3 and RS485 don't have to share"
+		(exclude_from_sim no)
+		(at 79.756 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5944c9f-9633-4410-bcc1-274cce9ffb27")
 	)
 	(text "Serial Connector ISOLATED"
 		(exclude_from_sim no)
@@ -31205,6 +31225,56 @@
 			(project "BMS"
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 469.265 290.195)
+		(size 26.67 11.43)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd1aa392-5cc3-4f4e-be99-b961b2840a8f")
+		(property "Sheetname" "5V_OUT_PROT"
+			(at 469.265 289.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_OCP_OVP_RPP.kicad_sch"
+			(at 469.265 302.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 469.265 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
+					(page "14")
 				)
 			)
 		)
