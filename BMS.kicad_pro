@@ -48,20 +48,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|176135000|141278000|31ff484d-4306-4f82-92ba-702110823751|f4c67e4b-cb35-4d58-b4d7-da31fa94ee27",
-          ""
-        ],
-        [
-          "silk_edge_clearance|227443000|141278000|31ff484d-4306-4f82-92ba-702110823751|369d2ce9-72f3-4ad1-aa17-2872c486694f",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
