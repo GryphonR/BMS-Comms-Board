@@ -1081,16 +1081,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO Check Footprint U9 - IC Model appears wider than footprint"
-		(exclude_from_sim no)
-		(at 108.966 51.308 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4977665e-1eb1-4dc4-a9b8-d16dcc3bc9c0")
-	)
 	(text "Isolated CAN Transceiver Circuit"
 		(exclude_from_sim no)
 		(at 70.612 57.912 0)

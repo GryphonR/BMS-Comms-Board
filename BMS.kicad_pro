@@ -474,21 +474,272 @@
         "wire_width": 6
       },
       {
+        "name": "12VPower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(221, 133, 0)",
+        "wire_width": 8
+      },
+      {
+        "name": "3v3Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 8
+      },
+      {
+        "name": "5vPower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 8
+      },
+      {
+        "name": "EXT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 5
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 8
+      },
+      {
+        "name": "Logic3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 5
+      },
+      {
         "clearance": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.6,
         "via_diameter": 0.5,
-        "via_drill": 0.2
+        "via_drill": 0.2,
+        "wire_width": 5
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/12V_Out_Bank1": [
+        "EXT"
+      ],
+      "/12V_Out_Bank2": [
+        "EXT"
+      ],
+      "/Buzzer_Logic": [
+        "Logic3v3"
+      ],
+      "/CAN1_HIGH_ISO": [
+        "EXT"
+      ],
+      "/CAN1_LOW_ISO": [
+        "EXT"
+      ],
+      "/CAN1_RX": [
+        "Logic3v3"
+      ],
+      "/CAN1_TX": [
+        "Logic3v3"
+      ],
+      "/CAN2_HIGH_Ext": [
+        "EXT"
+      ],
+      "/CAN2_LOW_Ext": [
+        "EXT"
+      ],
+      "/CAN2_RX": [
+        "Logic3v3"
+      ],
+      "/CAN2_TX": [
+        "Logic3v3"
+      ],
+      "/CAN3_HIGH_Ext": [
+        "EXT"
+      ],
+      "/CAN3_LOW_Ext": [
+        "EXT"
+      ],
+      "/CAN3_RX": [
+        "Logic3v3"
+      ],
+      "/CAN3_TX": [
+        "Logic3v3"
+      ],
+      "/Curr_Sens_High_3v3": [
+        "Logic3v3"
+      ],
+      "/Curr_Sens_Low_3v3": [
+        "Logic3v3"
+      ],
+      "/Current_Sense_In_High": [
+        "EXT"
+      ],
+      "/Current_Sense_In_Low": [
+        "EXT"
+      ],
+      "/ERROR_LED": [
+        "Logic3v3"
+      ],
+      "/HEARTBEAT_LED": [
+        "Logic3v3"
+      ],
+      "/HSD_FAULT_RESET": [
+        "Logic3v3"
+      ],
+      "/HSD_MULTISENSE_A": [
+        "Logic3v3"
+      ],
+      "/HSD_MULTISENSE_B": [
+        "Logic3v3"
+      ],
+      "/HSD_SEL_0_A": [
+        "Logic3v3"
+      ],
+      "/HSD_SEL_0_B": [
+        "Logic3v3"
+      ],
+      "/HSD_SEL_1_A": [
+        "Logic3v3"
+      ],
+      "/HSD_SEL_1_B": [
+        "Logic3v3"
+      ],
+      "/HSD_SEn_A": [
+        "Logic3v3"
+      ],
+      "/HSD_SEn_B": [
+        "Logic3v3"
+      ],
+      "/In_1_Ext": [
+        "EXT"
+      ],
+      "/In_2_Ext": [
+        "EXT"
+      ],
+      "/In_3_Ext": [
+        "EXT"
+      ],
+      "/In_4_Ext": [
+        "EXT"
+      ],
+      "/Logic_IN_1": [
+        "Logic3v3"
+      ],
+      "/Logic_IN_2": [
+        "Logic3v3"
+      ],
+      "/Logic_IN_3": [
+        "Logic3v3"
+      ],
+      "/Logic_IN_4": [
+        "Logic3v3"
+      ],
+      "/OUT1_HSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT1_HSD_PWR": [
+        "EXT"
+      ],
+      "/OUT2_HSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT2_HSD_PWR": [
+        "EXT"
+      ],
+      "/OUT3_HSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT3_HSD_PWR": [
+        "EXT"
+      ],
+      "/OUT4_HSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT4_HSD_PWR": [
+        "EXT"
+      ],
+      "/OUT5_LSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT5_LSD_PWR": [
+        "EXT"
+      ],
+      "/OUT6_LSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT6_LSD_PWR": [
+        "EXT"
+      ],
+      "/OUT7_LSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT7_LSD_PWR": [
+        "EXT"
+      ],
+      "/OUT8_LSD_LOGIC": [
+        "Logic3v3"
+      ],
+      "/OUT8_LSD_PWR": [
+        "EXT"
+      ],
+      "/RS-485_DIR": [
+        "Logic3v3"
+      ],
+      "/RS485_BUS_A": [
+        "EXT"
+      ],
+      "/RS485_BUS_B": [
+        "EXT"
+      ],
+      "/RX_2_Ext": [
+        "EXT"
+      ],
+      "/RX_2_logic": [
+        "Logic3v3"
+      ],
+      "/RX_3_logic": [
+        "Logic3v3"
+      ],
+      "/SERIAL_RX": [
+        "Logic3v3"
+      ],
+      "/SERIAL_TX": [
+        "Logic3v3"
+      ],
+      "/TX_2_Ext": [
+        "EXT"
+      ],
+      "/TX_2_logic": [
+        "Logic3v3"
+      ],
+      "/TX_3_logic": [
+        "Logic3v3"
+      ],
+      "/UART_RX_ISO": [
+        "EXT"
+      ],
+      "/UART_TX_ISO": [
+        "EXT"
+      ],
+      "I2C_SCL": [
+        "Logic3v3"
+      ],
+      "I2C_SDA": [
+        "Logic3v3"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -497,6 +748,38 @@
       {
         "netclass": "Power",
         "pattern": "*V_{OUT}"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*ISO*"
+      },
+      {
+        "netclass": "Logic3v3",
+        "pattern": "*logic*"
+      },
+      {
+        "netclass": "3v3Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "5vPower",
+        "pattern": "+5V*"
+      },
+      {
+        "netclass": "12VPower",
+        "pattern": "*+12V*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "12VPower",
+        "pattern": "/12V_INPUT"
+      },
+      {
+        "netclass": "EXT",
+        "pattern": "External"
       }
     ]
   },

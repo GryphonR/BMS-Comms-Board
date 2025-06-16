@@ -1056,6 +1056,16 @@
 		)
 		(uuid "19edd76f-2d9f-4068-9af8-ba96068c43fd")
 	)
+	(text "TODO - Add Sense Resistor"
+		(exclude_from_sim no)
+		(at 108.204 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "300630a9-088f-4c62-bfcc-c32bcea35073")
+	)
 	(text "High Side Driver A"
 		(exclude_from_sim no)
 		(at 36.195 64.135 0)
