@@ -870,9 +870,79 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CAN Transceiver Circuit"
+	(rectangle
+		(start 97.028 124.46)
+		(end 149.86 155.448)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41b667f9-b0f8-487a-b4c2-623821bd4034)
+	)
+	(rectangle
+		(start 190.754 58.166)
+		(end 228.854 121.666)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5010e3eb-e57f-4b64-86a4-57ecfe933eac)
+	)
+	(rectangle
+		(start 152.4 58.166)
+		(end 189.484 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 727c0b4c-b830-4bab-80dc-48ed46d703bf)
+	)
+	(rectangle
+		(start 51.816 57.912)
+		(end 150.114 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b2b264de-a0dd-4ac9-b4d9-7d91e9abd442)
+	)
+	(text "ESD Protection"
 		(exclude_from_sim no)
-		(at 78.74 60.96 0)
+		(at 98.552 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "051d649c-901d-48db-8318-c04a42cdf803")
+	)
+	(text "Decoupling Capacitors"
+		(exclude_from_sim no)
+		(at 153.924 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14a63512-ff08-48df-8f2b-4344552cb95e")
+	)
+	(text "CAN Transceiver"
+		(exclude_from_sim no)
+		(at 53.34 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -881,19 +951,20 @@
 		)
 		(uuid "178ef107-7a36-4979-8065-0234a3c95b55")
 	)
-	(polyline
-		(pts
-			(xy 219.71 107.95) (xy 77.47 107.95)
+	(text "Switchable Termination Resistor"
+		(exclude_from_sim no)
+		(at 192.278 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b52d85-6e36-424b-a9a1-ff8e6472a47c")
+		(uuid "6f4f96d5-bce5-4145-8694-35cb36da78be")
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 113.03 93.98)
+			(xy 107.95 104.14) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -903,17 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 128.27 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa4f6f2-eb5d-4cb7-9177-3f13e1ce7538")
-	)
-	(wire
-		(pts
-			(xy 209.55 92.71) (xy 209.55 100.33)
+			(xy 213.36 97.79) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +984,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 128.27 77.47)
+			(xy 118.11 87.63) (xy 121.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 113.03 63.5)
+			(xy 106.68 73.66) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 113.03 69.85)
+			(xy 105.41 73.66) (xy 105.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +1014,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 173.99 81.28)
+			(xy 77.47 87.63) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420a9e61-a2c3-4050-b2a4-c8af8f9a3cc3")
+	)
+	(wire
+		(pts
+			(xy 132.08 140.97) (xy 134.62 140.97)
 		)
 		(stroke
 			(width 0)
@@ -963,17 +1034,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 128.27 81.28)
+			(xy 88.9 85.09) (xy 92.71 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4da7dd3d-95b7-47a0-8828-844f7d2f062c")
+		(uuid "49bf483b-396f-444e-a9dd-fe561cf40480")
 	)
 	(wire
 		(pts
-			(xy 207.01 100.33) (xy 209.55 100.33)
+			(xy 210.82 105.41) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 162.56 88.9)
+			(xy 124.46 148.59) (xy 123.19 148.59)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1064,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 125.73 82.55)
+			(xy 88.9 87.63) (xy 92.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63809b6e-0639-4523-8a2a-15c844c2d3fe")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1084,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 153.67 81.28)
+			(xy 111.76 140.97) (xy 114.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1013,27 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 78.74) (xy 128.27 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8425a15d-9db9-4458-af5e-cd5a0bdae599")
-	)
-	(wire
-		(pts
-			(xy 128.27 81.28) (xy 128.27 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3540278-df7a-4b1c-ac6c-425256103ca9")
-	)
-	(wire
-		(pts
-			(xy 162.56 88.9) (xy 162.56 85.09)
+			(xy 123.19 148.59) (xy 123.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 113.03 90.17)
+			(xy 105.41 104.14) (xy 105.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 82.55) (xy 100.33 82.55)
+			(xy 77.47 92.71) (xy 92.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1061,19 +1122,9 @@
 		)
 		(uuid "bbf81558-cbfe-44ed-a7b0-e8a20b39f326")
 	)
-	(polyline
-		(pts
-			(xy 77.47 58.42) (xy 77.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78bfa59-feae-4b7a-8fb0-1e94f99b4616")
-	)
 	(wire
 		(pts
-			(xy 209.55 67.31) (xy 209.55 69.85)
+			(xy 213.36 72.39) (xy 213.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1134,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 67.31) (xy 209.55 67.31)
+			(xy 210.82 72.39) (xy 213.36 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1091,29 +1142,19 @@
 		)
 		(uuid "d6de5bc5-b03e-461b-8be8-a8b890051ebd")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 219.71 58.42) (xy 219.71 107.95)
+			(xy 77.47 85.09) (xy 81.28 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfc64c84-2713-40a7-9823-c4035adb19c8")
-	)
-	(polyline
-		(pts
-			(xy 77.47 58.42) (xy 219.71 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2e93c2-776a-4db6-ac53-899e4b399422")
+		(uuid "e3ec6a03-47fa-4817-ac27-387248f81a8d")
 	)
 	(hierarchical_label "CAN_Logic_TX"
 		(shape input)
-		(at 92.71 74.93 180)
+		(at 77.47 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1124,7 +1165,7 @@
 	)
 	(hierarchical_label "5V_VCC"
 		(shape input)
-		(at 114.3 63.5 0)
+		(at 106.68 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1135,7 +1176,7 @@
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape bidirectional)
-		(at 207.01 67.31 180)
+		(at 210.82 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1146,7 +1187,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 163.83 88.9 0)
+		(at 124.46 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1157,7 +1198,7 @@
 	)
 	(hierarchical_label "CAN_LOW"
 		(shape bidirectional)
-		(at 151.13 81.28 180)
+		(at 111.76 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1168,7 +1209,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 115.57 93.98 0)
+		(at 107.95 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1179,7 +1220,7 @@
 	)
 	(hierarchical_label "CAN_LOW"
 		(shape bidirectional)
-		(at 207.01 100.33 180)
+		(at 210.82 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1190,18 +1231,18 @@
 	)
 	(hierarchical_label "5V_VCC"
 		(shape input)
-		(at 127 101.6 180)
+		(at 175.26 87.63 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "762b0aa5-cb3f-4634-9e5a-2d4528609bb7")
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape bidirectional)
-		(at 173.99 81.28 0)
+		(at 134.62 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,29 +1253,29 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 134.62 101.6 0)
+		(at 175.26 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8ed30231-ae38-4590-88af-13dd2122d9af")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 106.68 101.6 0)
+		(at 160.02 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c617af93-79c9-4ecb-9505-d47ae37c1290")
 	)
 	(hierarchical_label "CAN_Logic_RX"
 		(shape output)
-		(at 92.71 77.47 180)
+		(at 77.47 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1245,7 +1286,7 @@
 	)
 	(hierarchical_label "Logic_Ref_V"
 		(shape input)
-		(at 97.79 82.55 180)
+		(at 77.47 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1256,7 +1297,7 @@
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape bidirectional)
-		(at 129.54 78.74 0)
+		(at 121.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1267,18 +1308,18 @@
 	)
 	(hierarchical_label "Logic_Ref_V"
 		(shape input)
-		(at 99.06 101.6 180)
+		(at 160.02 87.63 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e09613bb-2036-46ad-8e8a-c6bac2482030")
 	)
 	(hierarchical_label "CAN_LOW"
 		(shape bidirectional)
-		(at 129.54 81.28 0)
+		(at 121.92 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,7 +1330,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 101.6 270)
+		(at 160.02 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1298,7 +1339,7 @@
 		(fields_autoplaced yes)
 		(uuid "0185b586-b562-4adb-b20d-426fb25332a3")
 		(property "Reference" "C5"
-			(at 102.87 93.98 90)
+			(at 167.64 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1347,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 102.87 96.52 90)
+			(at 165.1 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1355,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 99.06 102.5652 0)
+			(at 159.0548 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 101.6 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1373,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 101.6 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1382,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 102.87 101.6 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1411,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 101.6 270)
+		(at 175.26 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1379,7 +1420,7 @@
 		(fields_autoplaced yes)
 		(uuid "06a8e200-bd6c-4544-97f4-9bd80dc617d5")
 		(property "Reference" "C6"
-			(at 130.81 93.98 90)
+			(at 182.88 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1428,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 130.81 96.52 90)
+			(at 180.34 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127 102.5652 0)
+			(at 174.2948 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 101.6 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1454,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 101.6 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1463,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 130.81 101.6 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1492,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 73.66 0)
+		(at 213.36 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1459,7 +1500,7 @@
 		(dnp no)
 		(uuid "11110451-0b18-4747-9876-c5cd1c82f925")
 		(property "Reference" "R3"
-			(at 211.328 72.4916 0)
+			(at 215.138 77.5716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1509,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 211.328 74.803 0)
+			(at 215.138 79.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1518,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 207.772 73.66 90)
+			(at 211.582 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 73.66 0)
+			(at 213.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 73.66 0)
+			(at 213.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1545,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 209.55 73.66 0)
+			(at 213.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1574,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:MCP2551-I-SN")
-		(at 113.03 80.01 0)
+		(at 105.41 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1541,7 +1582,7 @@
 		(dnp no)
 		(uuid "253ca64d-2231-4159-9e0a-f81ea50db246")
 		(property "Reference" "U5"
-			(at 115.1909 67.31 0)
+			(at 107.5709 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1591,7 @@
 			)
 		)
 		(property "Value" "TJA1051T/3/1J"
-			(at 115.1909 69.85 0)
+			(at 107.5709 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1600,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 113.03 92.71 0)
+			(at 105.41 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1610,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
-			(at 113.03 80.01 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1619,7 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC-8"
-			(at 113.03 80.01 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1628,7 @@
 			)
 		)
 		(property "LCSC" "C38695"
-			(at 113.03 80.01 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1636,7 @@
 			)
 		)
 		(property "MPN" "TJA1051T/3/1J"
-			(at 113.03 80.01 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1644,7 @@
 			)
 		)
 		(property "Manufacturer" "NXP Semicon"
-			(at 113.03 80.01 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1690,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 209.55 85.09 90)
+		(at 213.36 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1658,7 +1699,7 @@
 		(fields_autoplaced yes)
 		(uuid "404a9a4f-cb05-4f15-a569-2ac6520c8a33")
 		(property "Reference" "SW2"
-			(at 203.2 85.09 0)
+			(at 207.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1707,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 205.74 85.09 0)
+			(at 209.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1715,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm"
-			(at 209.55 85.09 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 85.09 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 85.09 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1742,7 @@
 			)
 		)
 		(property "LCSC" "C5160893"
-			(at 209.55 85.09 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1771,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 77.47 90)
+		(at 85.09 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1738,7 +1779,7 @@
 		(dnp no)
 		(uuid "6096a95f-c069-4b30-a9f9-f2ec13d22312")
 		(property "Reference" "R5"
-			(at 96.52 75.565 90)
+			(at 85.09 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1788,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 96.52 77.724 90)
+			(at 85.09 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1796,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 79.248 90)
+			(at 85.09 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 77.47 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 77.47 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1823,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 96.52 77.47 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1852,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 74.93 90)
+		(at 85.09 85.09 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1820,7 +1861,7 @@
 		(dnp no)
 		(uuid "91b317ce-d65e-413f-bc67-9280252ed465")
 		(property "Reference" "R4"
-			(at 96.52 76.835 90)
+			(at 85.09 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1870,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 96.52 74.93 90)
+			(at 85.09 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 73.152 90)
+			(at 85.09 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 74.93 0)
+			(at 85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 74.93 0)
+			(at 85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1905,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 96.52 74.93 0)
+			(at 85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1934,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 162.56 81.28 0)
+		(at 123.19 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1902,7 +1943,7 @@
 		(fields_autoplaced yes)
 		(uuid "92d885cc-3fee-4d11-9a8a-f5fcd3d4734c")
 		(property "Reference" "D3"
-			(at 162.56 74.93 0)
+			(at 123.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1951,7 @@
 			)
 		)
 		(property "Value" "PESD1CAN"
-			(at 162.56 77.47 0)
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1959,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 158.75 81.28 0)
+			(at 119.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1968,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121734_Nexperia-PESD1CAN-215_C15771.pdf"
-			(at 158.75 81.28 0)
+			(at 119.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1977,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 162.56 81.28 0)
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1986,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 162.56 81.28 0)
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1995,7 @@
 			)
 		)
 		(property "LCSC" "C15771"
-			(at 162.56 81.28 0)
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

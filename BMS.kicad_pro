@@ -538,6 +538,9 @@
       "/12V_Out_Bank2": [
         "EXT"
       ],
+      "/5V_Out_J4": [
+        "EXT"
+      ],
       "/Buzzer_Logic": [
         "Logic3v3"
       ],
