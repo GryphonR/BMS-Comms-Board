@@ -474,57 +474,14 @@
         "wire_width": 6
       },
       {
-        "name": "12VPower",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(221, 133, 0)",
-        "wire_width": 8
-      },
-      {
-        "name": "3v3Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgb(194, 0, 0)",
-        "wire_width": 8
-      },
-      {
-        "name": "5vPower",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(255, 0, 0)",
-        "wire_width": 8
-      },
-      {
-        "name": "EXT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(194, 0, 194)",
-        "wire_width": 5
-      },
-      {
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 0, 0)",
-        "wire_width": 8
-      },
-      {
-        "name": "Logic3v3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 194, 0)",
-        "wire_width": 5
-      },
-      {
         "clearance": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(255, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 0.5,
-        "via_drill": 0.2,
-        "wire_width": 5
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -751,38 +708,6 @@
       {
         "netclass": "Power",
         "pattern": "*V_{OUT}"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "*ISO*"
-      },
-      {
-        "netclass": "Logic3v3",
-        "pattern": "*logic*"
-      },
-      {
-        "netclass": "3v3Power",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "5vPower",
-        "pattern": "+5V*"
-      },
-      {
-        "netclass": "12VPower",
-        "pattern": "*+12V*"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "*GND*"
-      },
-      {
-        "netclass": "12VPower",
-        "pattern": "/12V_INPUT"
-      },
-      {
-        "netclass": "EXT",
-        "pattern": "External"
       }
     ]
   },
