@@ -1,0 +1,11 @@
+[x] Mosfet drivers - more than 330 gate R
+
+[x] Mosfet - default ON
+
+[x] 5V prot out - 400w TVS?
+
+[x] UART Buffer - voltage switch on wrong input
+
+[ ] advanced output v prot - mosfet right way around?
+
+[x] Terminating Resistors - ensure 1/2W rating.

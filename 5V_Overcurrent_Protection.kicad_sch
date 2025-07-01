@@ -11,6 +11,156 @@
 		(company "eChook")
 	)
 	(lib_symbols
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -548,6 +698,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 119.38) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d00ebe4-d205-413e-89d9-e3d5ae822769")
+	)
+	(wire
+		(pts
 			(xy 185.42 68.58) (xy 185.42 73.66)
 		)
 		(stroke
@@ -568,6 +728,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 119.38) (xy 171.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40661f39-4f1a-4d90-8cf9-9277bdad907e")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dfc06c-5946-4453-8189-0e85ef7675a6")
+	)
+	(wire
+		(pts
 			(xy 142.24 102.87) (xy 148.59 102.87)
 		)
 		(stroke
@@ -585,6 +765,16 @@
 			(type default)
 		)
 		(uuid "91a4f1a5-e520-4b95-ac1d-986b0c89b5c2")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86d137d-bf26-4e26-89fd-ca598b820d3e")
 	)
 	(wire
 		(pts
@@ -658,6 +848,28 @@
 			(justify left)
 		)
 		(uuid "af76adf2-b437-4b15-b0cf-61fa4e988a34")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 175.26 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d466e369-7ee9-4de5-b8c3-22a11fd7b3c3")
+	)
+	(hierarchical_label "V_{OUT}"
+		(shape output)
+		(at 175.26 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de81069e-c9e7-4a29-b3b4-b8f0bc100aef")
 	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
@@ -873,6 +1085,97 @@
 				)
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/f3360caf-e324-45d1-b704-f30b29e9918c"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 171.45 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c4ed683-b581-4a97-8f9d-cdc75e3b7bdd")
+		(property "Reference" "D48"
+			(at 173.99 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 173.99 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C477993"
+			(at 171.45 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f37cb74-4573-41f5-91a4-41ebd7e5d1fd")
+		)
+		(pin "2"
+			(uuid "818f735f-37b9-4e52-b461-ad2763e01843")
+		)
+		(instances
+			(project ""
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/29683fdb-af89-4404-82da-8f039745472d"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/c3056ab1-5cdf-4364-9ad2-3f439474eb1e"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/edb12572-d726-408e-abc9-877ec2f4dc08"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/f3360caf-e324-45d1-b704-f30b29e9918c"
+					(reference "D51")
 					(unit 1)
 				)
 			)
