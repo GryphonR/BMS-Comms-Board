@@ -496,7 +496,8 @@
         "EXT"
       ],
       "/5V_Out_J4": [
-        "EXT"
+        "EXT",
+        "Power"
       ],
       "/Buzzer_Logic": [
         "Logic3v3"
@@ -653,6 +654,15 @@
       ],
       "/OUT8_LSD_PWR": [
         "EXT"
+      ],
+      "/Overcurrent_Protection/V_{OUT}": [
+        "Power"
+      ],
+      "/Overcurrent_Protection2/V_{OUT}": [
+        "Power"
+      ],
+      "/Overcurrent_Protection3/V_{OUT}": [
+        "Power"
       ],
       "/RS-485_DIR": [
         "Logic3v3"

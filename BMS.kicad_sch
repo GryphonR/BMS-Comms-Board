@@ -8594,7 +8594,7 @@
 		(uuid 3ee86bcd-16b3-4d1a-bf8f-7ab69d0db309)
 	)
 	(rectangle
-		(start 255.778 31.75)
+		(start 255.27 31.75)
 		(end 357.632 71.12)
 		(stroke
 			(width 0)
@@ -8702,7 +8702,7 @@
 		(uuid 7b2f74ae-377d-4fad-9d04-a18ffc4c03f4)
 	)
 	(rectangle
-		(start 255.524 116.84)
+		(start 255.27 116.84)
 		(end 357.632 177.038)
 		(stroke
 			(width 0)
@@ -8765,7 +8765,7 @@
 	)
 	(rectangle
 		(start 255.27 180.34)
-		(end 358.14 240.538)
+		(end 357.505 240.538)
 		(stroke
 			(width 0)
 			(type default)
@@ -8836,7 +8836,7 @@
 		(uuid e062ee86-8740-4c97-937c-dc1bb953ece2)
 	)
 	(rectangle
-		(start 255.778 73.406)
+		(start 255.27 73.406)
 		(end 357.632 112.776)
 		(stroke
 			(width 0)
@@ -9379,6 +9379,12 @@
 		(uuid "02ec254d-d9fa-46a7-9cbd-1fd5a277e111")
 	)
 	(junction
+		(at 527.05 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06af8534-2f7e-4a7b-8cca-24a573231d91")
+	)
+	(junction
 		(at 48.26 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9493,16 +9499,16 @@
 		(uuid "478ddfe7-363f-4b09-90ee-b9cc28685028")
 	)
 	(junction
-		(at 511.81 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c1752c6-2f15-4409-9e7e-0d2a316dd84f")
-	)
-	(junction
 		(at 198.12 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c7520d3-1b8b-4d87-a1a6-de1e7c92e93f")
+	)
+	(junction
+		(at 516.89 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d46d940-a89e-4542-bead-d839c4d9c61a")
 	)
 	(junction
 		(at 447.04 217.17)
@@ -9521,6 +9527,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ea6b105-b4ac-4202-8c68-7bfd134197b2")
+	)
+	(junction
+		(at 516.89 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "628cb9ce-80ff-4385-a08a-1e5350b0c1ea")
 	)
 	(junction
 		(at 422.91 224.79)
@@ -9551,6 +9563,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "818fe238-95ff-4f12-b5d3-5667daffd8aa")
+	)
+	(junction
+		(at 521.97 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "862b85da-a5d5-47ae-9b0f-45ad4c423b4c")
 	)
 	(junction
 		(at 514.35 222.25)
@@ -9703,12 +9721,6 @@
 		(uuid "d7c6959d-a239-4e9e-a06a-9ee52696430d")
 	)
 	(junction
-		(at 523.24 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8d7aee8-00b6-45fb-ac25-52c146389307")
-	)
-	(junction
 		(at 39.37 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9745,6 +9757,12 @@
 		(uuid "f2488905-a046-40eb-b1f5-d2430da8937e")
 	)
 	(junction
+		(at 521.97 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f455df9a-8eca-4825-8703-ff7b89929c2a")
+	)
+	(junction
 		(at 151.13 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9773,6 +9791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb154c9d-6e3e-46d9-991f-4582d64cea75")
+	)
+	(junction
+		(at 511.81 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc147798-3426-4956-986a-482d4459e450")
 	)
 	(junction
 		(at 120.65 41.91)
@@ -10039,6 +10063,16 @@
 			(type default)
 		)
 		(uuid "0b7aa0b5-8088-41b0-ac8c-260f50000dde")
+	)
+	(wire
+		(pts
+			(xy 516.89 78.74) (xy 516.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c173cda-2a37-4ac8-912e-ae598fedf06b")
 	)
 	(wire
 		(pts
@@ -10722,6 +10756,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 78.74) (xy 521.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316c27e6-35e8-4651-b85e-c386ee8571c3")
+	)
+	(wire
+		(pts
 			(xy 396.24 74.93) (xy 396.24 78.74)
 		)
 		(stroke
@@ -10902,7 +10946,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 78.74) (xy 523.24 78.74)
+			(xy 511.81 78.74) (xy 516.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11322,6 +11366,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 78.74) (xy 534.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f0a377-598b-481f-8870-711670fc2098")
+	)
+	(wire
+		(pts
 			(xy 476.25 82.55) (xy 472.44 82.55)
 		)
 		(stroke
@@ -11499,16 +11553,6 @@
 			(type default)
 		)
 		(uuid "6201dbbc-02cf-4539-9823-8ec712b56323")
-	)
-	(wire
-		(pts
-			(xy 523.24 78.74) (xy 523.24 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6286f0d4-99f9-4559-acb9-96d660daf4c1")
 	)
 	(wire
 		(pts
@@ -11712,6 +11756,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 78.74) (xy 527.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c74560b-d9de-4331-bf3c-7a9a32f26219")
+	)
+	(wire
+		(pts
 			(xy 532.13 271.78) (xy 552.45 271.78)
 		)
 		(stroke
@@ -11839,16 +11893,6 @@
 			(type default)
 		)
 		(uuid "756441e4-2cb2-4fcb-a7fd-49fdc37db3a9")
-	)
-	(wire
-		(pts
-			(xy 511.81 90.17) (xy 523.24 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a38376-2432-4b95-b15d-080e59f9608b")
 	)
 	(wire
 		(pts
@@ -12332,6 +12376,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 78.74) (xy 527.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cd3ad2-ee63-46d5-9f71-6f8127383da8")
+	)
+	(wire
+		(pts
 			(xy 74.93 294.64) (xy 74.93 302.26)
 		)
 		(stroke
@@ -12462,16 +12516,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 78.74) (xy 534.67 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db464ca-5c97-4bc0-9e72-51fccbeec519")
-	)
-	(wire
-		(pts
 			(xy 295.91 208.28) (xy 289.56 208.28)
 		)
 		(stroke
@@ -12479,6 +12523,16 @@
 			(type default)
 		)
 		(uuid "9e399829-0920-450f-b4b5-7dd487a97c48")
+	)
+	(wire
+		(pts
+			(xy 521.97 90.17) (xy 527.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e913510-ef7c-4098-9573-a962790f6e68")
 	)
 	(wire
 		(pts
@@ -12579,6 +12633,16 @@
 			(type default)
 		)
 		(uuid "a2b264b0-ff70-4fa6-88eb-55c337f98666")
+	)
+	(wire
+		(pts
+			(xy 516.89 90.17) (xy 521.97 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d11b07-ce58-4374-a0f0-de4248042980")
 	)
 	(wire
 		(pts
@@ -12699,6 +12763,16 @@
 			(type default)
 		)
 		(uuid "a8c783c0-daf9-4192-8686-3338b4193b3e")
+	)
+	(wire
+		(pts
+			(xy 511.81 90.17) (xy 516.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e82f3b-0ab9-402b-b661-0b2058930cd8")
 	)
 	(wire
 		(pts
@@ -13139,6 +13213,16 @@
 			(type default)
 		)
 		(uuid "bf572f77-3f4b-4a2e-ae48-ef2b697ff69e")
+	)
+	(wire
+		(pts
+			(xy 516.89 78.74) (xy 521.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf62f178-fba7-45bc-a90c-3cd216112a7a")
 	)
 	(wire
 		(pts
@@ -14961,7 +15045,7 @@
 		(uuid "4e6dc81b-46dd-4689-80a3-e52669088751")
 	)
 	(label "TX_3_logic"
-		(at 69.85 171.45 0)
+		(at 69.85 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15601,7 +15685,7 @@
 		(uuid "bf7dc82c-3778-415f-9de7-a6ed625feb79")
 	)
 	(label "RX_3_logic"
-		(at 69.85 173.99 0)
+		(at 69.85 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17317,6 +17401,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 527.05 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09cbf5c8-b604-42e0-b0e7-bca2e7b41e8a")
+		(property "Reference" "C46"
+			(at 525.78 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF 16V"
+			(at 528.32 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 528.0152 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 47uF X7R ±10% 1210 Multilayer Ceramic Capacitor"
+			(at 527.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5440143"
+			(at 527.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "311f343d-b89b-495b-b1f1-3d95a53775a7")
+		)
+		(pin "2"
+			(uuid "44212787-203d-436c-9708-b2fb84cfeec2")
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 556.26 271.78 0)
 		(unit 1)
@@ -17731,6 +17893,84 @@
 			(project ""
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 521.97 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14dbfb36-702c-4de4-a716-e4eefbc4dab8")
+		(property "Reference" "C45"
+			(at 520.7 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF 16V"
+			(at 523.24 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 522.9352 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 521.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 47uF X7R ±10% 1210 Multilayer Ceramic Capacitor"
+			(at 521.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5440143"
+			(at 521.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da6d73fb-e7ec-4aa1-a3a4-1851c87286fc")
+		)
+		(pin "2"
+			(uuid "968a797e-283c-4729-a1cb-18f20fd89cdb")
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -19882,6 +20122,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 511.81 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30fb3c67-5cdb-4a19-86fa-c7fbe31cd7ea")
+		(property "Reference" "C13"
+			(at 510.54 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF 16V"
+			(at 513.08 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 512.7752 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 511.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 47uF X7R ±10% 1210 Multilayer Ceramic Capacitor"
+			(at 511.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5440143"
+			(at 511.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf7006d-f86b-4689-a6b2-b5838f0e2a05")
+		)
+		(pin "2"
+			(uuid "d1fefd79-14da-47e0-bc7e-65860d0abfab")
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 396.24 74.93 0)
 		(unit 1)
@@ -20158,85 +20476,6 @@
 			(project ""
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
 					(reference "D43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 511.81 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35e05bc4-5818-4b50-b784-56e6aef8872f")
-		(property "Reference" "C13"
-			(at 515.62 84.2009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470uF"
-			(at 515.62 86.7409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 510.8448 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121706_PANASONIC-EEEFP1H221AP_C178579.pdf"
-			(at 511.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 511.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C178579"
-			(at 511.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4477d099-4c1f-46ed-acd4-3214ce62bd6b")
-		)
-		(pin "1"
-			(uuid "ea22b09d-bbad-4e32-b169-9b7486a6b58b")
-		)
-		(instances
-			(project "BMS"
-				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -22068,85 +22307,6 @@
 			(project "BMS"
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 523.24 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ea7493a-2263-42dd-bc9c-1f0585aa987f")
-		(property "Reference" "C14"
-			(at 527.05 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 527.05 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 524.2052 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 523.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 523.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 523.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f206d2a-2143-4188-9855-c345cf743d40")
-		)
-		(pin "2"
-			(uuid "9d723ca9-ac1d-42ae-b498-68e7f918f6f8")
-		)
-		(instances
-			(project "BMS"
-				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -24787,6 +24947,84 @@
 			(project "BMS"
 				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
 					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 516.89 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8904a08f-cfa7-45b8-9162-55c559d2b5f9")
+		(property "Reference" "C14"
+			(at 515.62 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF 16V"
+			(at 518.16 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 517.8552 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 47uF X7R ±10% 1210 Multilayer Ceramic Capacitor"
+			(at 516.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5440143"
+			(at 516.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf901548-e29a-4470-82e2-76746f928d54")
+		)
+		(pin "2"
+			(uuid "9f3013c6-286a-439c-8acf-fc960d71b98b")
+		)
+		(instances
+			(project "BMS"
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f"
+					(reference "C14")
 					(unit 1)
 				)
 			)
