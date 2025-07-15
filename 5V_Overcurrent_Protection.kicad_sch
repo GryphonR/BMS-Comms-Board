@@ -1453,7 +1453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410122007_Nexperia-PESD5V0V1BB-115_C477993.pdf"
 			(at 170.18 118.11 0)
 			(effects
 				(font
@@ -1462,7 +1462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" "Bidirectional TVS Diode, Nexperia PESD5V0V1BB,115"
 			(at 170.18 118.11 0)
 			(effects
 				(font
@@ -1472,6 +1472,15 @@
 			)
 		)
 		(property "LCSC" "C477993"
+			(at 170.18 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
 			(at 170.18 118.11 90)
 			(effects
 				(font
