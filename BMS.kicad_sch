@@ -8985,6 +8985,17 @@
 		)
 		(uuid "3fb59991-f7bb-4496-b38f-358d2d58be9d")
 	)
+	(text "3V3 Current Draw\nTeensy: 100mA\nRS485: 60mA (Max)\nDigital UART Isolater: 2mA x2\nDigital input isolater: 1.5mA x 4\nCAN Isolator: 38mA\n\nTotal 208mA"
+		(exclude_from_sim no)
+		(at 611.124 212.598 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "45dde5ff-7d39-4f04-abbc-6cfe002d0c83")
+	)
 	(text "43mW expected extreme 48V Input - 500mW might be overkill..."
 		(exclude_from_sim no)
 		(at 88.9 305.054 0)
@@ -9088,6 +9099,16 @@
 			)
 		)
 		(uuid "67dee0c3-44fb-41e1-9355-b55559cb2e3d")
+	)
+	(text "TODO! LCSC Code is for 220uF. Check Spec and Filter Calcs"
+		(exclude_from_sim no)
+		(at 73.914 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a84173a-39be-4f05-ae0a-b500d878d420")
 	)
 	(text "Hardware License "
 		(exclude_from_sim no)
@@ -9280,6 +9301,16 @@
 			)
 		)
 		(uuid "c937423c-0854-4a81-8ab5-a9f71046c3cb")
+	)
+	(text "TODO! Polarised caps on wrong side of RPP"
+		(exclude_from_sim no)
+		(at 62.484 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf495287-1a5c-4376-bffc-1dce41d8aa47")
 	)
 	(text "Current Input Voltage Divider"
 		(exclude_from_sim no)
