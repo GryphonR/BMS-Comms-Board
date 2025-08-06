@@ -489,6 +489,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+12V": [
+        "Power"
+      ],
       "/12V_Out_Bank1": [
         "EXT"
       ],
@@ -708,6 +711,12 @@
       ],
       "I2C_SDA": [
         "Logic3v3"
+      ],
+      "Net-(D1-K)": [
+        "Power"
+      ],
+      "Net-(D21-K)": [
+        "Power"
       ]
     },
     "netclass_patterns": [
