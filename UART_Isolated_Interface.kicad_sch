@@ -1449,7 +1449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 104.14 91.44 90)
 			(effects
 				(font
@@ -1530,7 +1530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 104.14 94.234 90)
 			(effects
 				(font
@@ -1612,7 +1612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 132.08 91.44 90)
 			(effects
 				(font
@@ -1774,7 +1774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 132.08 94.234 90)
 			(effects
 				(font

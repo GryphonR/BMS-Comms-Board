@@ -17486,7 +17486,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "220uF"
 			(at 426.72 277.2409 0)
 			(effects
 				(font
@@ -17513,7 +17513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "-55℃~+105℃ 10.5mm 10mm 120mΩ@100kHz 2000hrs@105℃ 220uF 50V 900mA@100kHz ±20% SMD,D10xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 422.91 276.86 0)
 			(effects
 				(font
@@ -17522,7 +17522,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C178579"
+		(property "LCSC" "C178549"
+			(at 422.91 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EEEFP1H221AP"
+			(at 422.91 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 422.91 276.86 0)
 			(effects
 				(font
@@ -18413,7 +18431,7 @@
 				)
 			)
 		)
-		(property "Value" "CA-IS3740"
+		(property "Value" "Chipanalog CA-IS3740LB"
 			(at 91.44 260.35 0)
 			(effects
 				(font
@@ -18457,7 +18475,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CA-IS3740"
+		(property "MPN" "CA-IS3740LB"
 			(at 91.44 285.75 0)
 			(effects
 				(font
@@ -18466,7 +18484,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3202822"
+		(property "LCSC" "C3202821"
 			(at 91.44 285.75 0)
 			(effects
 				(font
@@ -24125,7 +24143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "-55℃~+105℃ 10.5mm 10mm 120mΩ@100kHz 2000hrs@105℃ 220uF 50V 900mA@100kHz ±20% SMD,D10xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -24134,7 +24152,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C178579"
+		(property "LCSC" "C178549"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EEEFP1H221AP"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -24212,7 +24248,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C293504"
+		(property "LCSC" "C22365735"
 			(at 524.51 279.4 0)
 			(effects
 				(font
@@ -26272,7 +26308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 184.1501 113.03 0)
 			(effects
 				(font
@@ -30111,7 +30147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "-55℃~+105℃ 10.5mm 10mm 120mΩ@100kHz 2000hrs@105℃ 220uF 50V 900mA@100kHz ±20% SMD,D10xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -30120,7 +30156,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C178579"
+		(property "LCSC" "C178549"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EEEFP1H221AP"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 86.36 60.96 0)
 			(effects
 				(font
