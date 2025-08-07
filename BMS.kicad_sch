@@ -8707,8 +8707,8 @@
 		(uuid 18cec35f-23d6-4ca9-8a37-e2528927e56e)
 	)
 	(rectangle
-		(start 594.36 9.906)
-		(end 708.66 73.406)
+		(start 255.524 254.508)
+		(end 357.378 318.008)
 		(stroke
 			(width 0)
 			(type default)
@@ -9184,7 +9184,7 @@
 	)
 	(text "3V3 Current Draw\nTeensy: 100mA\nRS485: 60mA (Max)\nDigital UART Isolater: 2mA x2\nDigital input isolater: 1.5mA x 4\nCAN Isolator: 38mA\n\nTotal 208mA"
 		(exclude_from_sim no)
-		(at 611.124 212.598 0)
+		(at 691.642 159.004 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -9296,17 +9296,6 @@
 			)
 		)
 		(uuid "67dee0c3-44fb-41e1-9355-b55559cb2e3d")
-	)
-	(text "Hardware License "
-		(exclude_from_sim no)
-		(at 596.265 13.081 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cfc1e94-b559-4406-8f2b-8afc931643b4")
 	)
 	(text "No footprint items to hold part numbers for Teensy Headers\nMounting hole symbols as schematic placeholders"
 		(exclude_from_sim no)
@@ -9432,7 +9421,7 @@
 	)
 	(text "eChook Non-Commercial Open Hardware License (Version 1.0)\nCopyright (c) 2025 eChook\n1. License Grant\n Permission is hereby granted, free of charge, to any person obtaining a copy of this hardware\n design and associated documentation (the \"Design\"), to use, modify, and distribute the Design,\n subject to the following conditions:\n2. Non-Commercial Use Only\n This Design may not be used for commercial purposes. Commercial use includes, but is not limited\n to: manufacturing, distributing, selling, or integrating this Design into products or services\n for financial gain.\n3. Attribution\n Redistributions, modifications, or derivative works must include clear attribution to the original\n creator by retaining this license in all copies and providing visible credit in documentation\n or product descriptions.\n4. Modifications & Derivative Works\n Users may modify and create derivative works based on this Design. However, such works must also\n be licensed under this same Non-Commercial Open Hardware License.\n5. Warranty Disclaimer\n This Design is provided \"as is\", without warranty of any kind, express or implied. The author(s)\n shall not be liable for any damages arising from its use.\n6. Enforcement & Compliance\n Any unauthorized commercial use of this Design constitutes a violation of this license.\n The author(s) reserve the right to take legal action if necessary.\n"
 		(exclude_from_sim no)
-		(at 596.392 42.418 0)
+		(at 270.764 287.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9502,6 +9491,20 @@
 			(justify left top)
 		)
 		(uuid "cfd91c9d-164e-4bbe-b687-ec26777bf93a")
+	)
+	(text "Hardware License"
+		(exclude_from_sim no)
+		(at 256.794 256.54 0)
+		(effects
+			(font
+				(face "Ubuntu")
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d4fb5a2d-a4e1-47f7-9046-1b241b08ee10")
 	)
 	(text "Isolated Circuits"
 		(exclude_from_sim no)

@@ -479,6 +479,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:ISO1050DUB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ISO1050DUB"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso1050.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated CAN Transceiver, SOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CAN Isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOP*6.62x9.15mm*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ISO1050DUB_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ISO1050DUB_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VCC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VCC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DIP_x01"
 			(pin_names
 				(offset 0)
@@ -641,8 +928,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U9"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -650,14 +937,14 @@
 				)
 			)
 			(property "Value" "ISO1050DWR"
-				(at 2.54 6.35 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOP-16_4.55x10.3mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 				(at 0 -12.192 0)
 				(effects
 					(font
@@ -678,6 +965,15 @@
 			)
 			(property "Description" "Isolated CAN Transceiver, SOP-16"
 				(at -1.524 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C93718"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -789,6 +1085,14 @@
 						(type none)
 					)
 				)
+				(text private "NC Pins connected to TX and CANH for compatibility with ISO1050DB"
+					(at 0.254 -12.192 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -818,6 +1122,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -915,24 +1237,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 10.16 2.54 180)
 					(length 2.54)
@@ -962,6 +1266,24 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1059,24 +1381,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -1091,6 +1395,27 @@
 			(justify left bottom)
 		)
 		(uuid "6570feb2-c783-4ea3-b623-5f25254137de")
+	)
+	(text "Alternative CAN Driver -DWB"
+		(exclude_from_sim no)
+		(at 70.866 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b742ea8f-88cb-4e66-87c3-b83b847a4ee4")
+	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 118.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ffde5a-430b-4f64-a6a1-63b3f49c72c9")
 	)
 	(wire
 		(pts
@@ -1114,6 +1439,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f7318d-a3c9-45be-9acb-c9c99cdb0afc")
+	)
+	(wire
+		(pts
+			(xy 85.09 132.08) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad8a226-79f0-4049-b72d-093ce42f4458")
+	)
+	(wire
+		(pts
 			(xy 118.11 69.85) (xy 121.92 69.85)
 		)
 		(stroke
@@ -1131,6 +1476,16 @@
 			(type default)
 		)
 		(uuid "3367d3c9-28dd-4080-9492-7a7e5a76ea69")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.78) (xy 116.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e04a64-1ce4-4563-a328-b01a68c844ee")
 	)
 	(wire
 		(pts
@@ -1152,6 +1507,16 @@
 		)
 		(uuid "40d3447e-e885-4056-a426-1186b4bf90e3")
 	)
+	(wire
+		(pts
+			(xy 116.84 142.24) (xy 114.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5235669e-c824-4c99-b602-001da15a2f79")
+	)
 	(polyline
 		(pts
 			(xy 214.63 104.14) (xy 69.85 104.14)
@@ -1161,6 +1526,16 @@
 			(type default)
 		)
 		(uuid "53048613-8782-4279-b261-a446ad2ecd15")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 93.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5373f338-7491-49e2-ac6a-46ce798c52f3")
 	)
 	(wire
 		(pts
@@ -1184,6 +1559,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 144.78) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b65ae5-6107-455b-9c37-a4a94f884c3e")
+	)
+	(wire
+		(pts
 			(xy 114.3 74.93) (xy 118.11 74.93)
 		)
 		(stroke
@@ -1202,6 +1587,16 @@
 		)
 		(uuid "5dc78f2a-82a0-48fa-89b1-a763565b6e71")
 	)
+	(polyline
+		(pts
+			(xy 138.176 160.02) (xy 69.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1a0e18-3f5f-42b1-bbbd-c7e76387c7b5")
+	)
 	(wire
 		(pts
 			(xy 118.11 69.85) (xy 118.11 72.39)
@@ -1211,6 +1606,16 @@
 			(type default)
 		)
 		(uuid "65d7ab42-cf8a-4d3d-8f19-473bf8341f74")
+	)
+	(polyline
+		(pts
+			(xy 69.85 110.49) (xy 138.176 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f109d1-f354-4c24-8d32-409769571c5e")
 	)
 	(wire
 		(pts
@@ -1224,6 +1629,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 137.16) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f934b8f-9f1a-4d5a-8096-129aa3f4b168")
+	)
+	(wire
+		(pts
+			(xy 85.09 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891bf1b7-dd57-43c0-903a-6a304955eea5")
+	)
+	(wire
+		(pts
 			(xy 116.84 80.01) (xy 116.84 82.55)
 		)
 		(stroke
@@ -1234,6 +1659,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc5e990-e182-454b-a4cf-f32eff2d0950")
+	)
+	(wire
+		(pts
 			(xy 204.47 63.5) (xy 204.47 66.04)
 		)
 		(stroke
@@ -1241,6 +1676,26 @@
 			(type default)
 		)
 		(uuid "908cf097-cb19-4df7-9515-e8e4ae86bab3")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 118.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9144f4e7-e659-4219-a493-19d2bd663819")
+	)
+	(wire
+		(pts
+			(xy 116.84 142.24) (xy 116.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941bc912-9c9b-4bd4-84b3-3f4c36ae7436")
 	)
 	(wire
 		(pts
@@ -1262,6 +1717,16 @@
 		)
 		(uuid "a0d49e4c-49c8-45d0-8889-e592bcf1833d")
 	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b243b5e3-19a0-4356-bac4-74ff4d1a0146")
+	)
 	(polyline
 		(pts
 			(xy 104.14 54.61) (xy 104.14 104.14)
@@ -1281,6 +1746,26 @@
 			(type default)
 		)
 		(uuid "b9d375f4-ad07-4131-8f75-1eeb66c9f37e")
+	)
+	(wire
+		(pts
+			(xy 114.3 137.16) (xy 118.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb48429e-4ed1-4a2b-a866-63315248bf2a")
+	)
+	(polyline
+		(pts
+			(xy 69.85 110.236) (xy 69.85 159.766)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd07053-842d-431c-b4a2-9164712a0b7e")
 	)
 	(wire
 		(pts
@@ -1314,6 +1799,16 @@
 	)
 	(polyline
 		(pts
+			(xy 138.176 110.49) (xy 138.176 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd26ca7-1dbe-4d73-8335-f3125b03b860")
+	)
+	(polyline
+		(pts
 			(xy 214.63 54.61) (xy 214.63 104.14)
 		)
 		(stroke
@@ -1341,6 +1836,16 @@
 			(type default)
 		)
 		(uuid "d41d4a26-46ba-4897-85d2-11f1a39871bd")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 93.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e7b52e-09a4-46b8-b69e-b625d9a251f6")
 	)
 	(wire
 		(pts
@@ -1382,6 +1887,16 @@
 		)
 		(uuid "e8e11bf5-53cb-4fb8-989f-b5ecea057003")
 	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb512309-827d-4567-8147-6653ecbc8708")
+	)
 	(hierarchical_label "Logic VCC"
 		(shape input)
 		(at 82.55 97.79 180)
@@ -1414,6 +1929,17 @@
 			(justify left)
 		)
 		(uuid "11910289-0d45-44ed-83d9-fe13721c8aeb")
+	)
+	(hierarchical_label "Logic GND"
+		(shape input)
+		(at 85.09 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1eabce81-0d58-42b5-942c-5f3412b7bada")
 	)
 	(hierarchical_label "CAN_LOW"
 		(shape bidirectional)
@@ -1503,6 +2029,28 @@
 		)
 		(uuid "6983b8f2-bc1d-4e0c-810b-0540d7360fe9")
 	)
+	(hierarchical_label "CAN_Logic_RX"
+		(shape output)
+		(at 85.09 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a022746-ab0a-4465-8173-f9c5ca8344bc")
+	)
+	(hierarchical_label "ISO_GND"
+		(shape input)
+		(at 121.92 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "899c08d6-52a2-4435-b132-fa75b49c6afa")
+	)
 	(hierarchical_label "ISO_VCC"
 		(shape input)
 		(at 121.92 69.85 0)
@@ -1536,6 +2084,17 @@
 		)
 		(uuid "95ad46fe-5ca4-4ad4-a332-455c78563341")
 	)
+	(hierarchical_label "Logic VCC"
+		(shape input)
+		(at 85.09 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "977cccf2-9b44-437f-81c9-65cd0d3441e6")
+	)
 	(hierarchical_label "Logic GND"
 		(shape input)
 		(at 90.17 97.79 0)
@@ -1546,6 +2105,17 @@
 			(justify left)
 		)
 		(uuid "b556e78a-6162-42bd-8c2f-36f811be3c20")
+	)
+	(hierarchical_label "ISO_VCC"
+		(shape input)
+		(at 121.92 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd75572f-2d0f-47d7-a293-1e3bfa0d8c2a")
 	)
 	(hierarchical_label "CAN_Logic_RX"
 		(shape output)
@@ -1558,6 +2128,28 @@
 		)
 		(uuid "c3079eea-ec18-4370-9b7c-4a8408c3d799")
 	)
+	(hierarchical_label "CAN_LOW"
+		(shape bidirectional)
+		(at 118.11 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7f17063-dc8b-44db-933e-0c403b15645c")
+	)
+	(hierarchical_label "CAN_HIGH"
+		(shape bidirectional)
+		(at 118.11 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e43162de-d1f5-4ad1-b4da-26c24448a84d")
+	)
 	(hierarchical_label "CAN_HIGH"
 		(shape bidirectional)
 		(at 118.11 74.93 0)
@@ -1568,6 +2160,17 @@
 			(justify left)
 		)
 		(uuid "ea82669a-cd14-44b7-80e9-d02cc328dca3")
+	)
+	(hierarchical_label "CAN_Logic_TX"
+		(shape input)
+		(at 85.09 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f34a6a05-0701-4681-83f4-a7abdace523f")
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
@@ -1813,6 +2416,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_CAN_LIN:ISO1050DUB")
+		(at 104.14 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac60eb5-9a37-4570-9858-8e392ac51251")
+		(property "Reference" "U21"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO1050DUB"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso1050.pdf"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated CAN Transceiver, SOP-8"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16428"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0c16862b-c99b-4569-a264-2298917a3c83")
+		)
+		(pin "3"
+			(uuid "7e38cc98-7918-4554-8a1f-2c6dbaef764e")
+		)
+		(pin "2"
+			(uuid "7876f6bb-cba7-4b27-844b-064b0ff6f33d")
+		)
+		(pin "1"
+			(uuid "6e61b1c5-3973-4a68-b302-87ed4439fc6c")
+		)
+		(pin "8"
+			(uuid "2e4dcc34-d8ad-4ebb-9d4d-52b9738640c2")
+		)
+		(pin "7"
+			(uuid "461104d7-818b-4e85-83cf-a98af69d9c77")
+		)
+		(pin "4"
+			(uuid "e616ce0b-fe63-41be-866a-b5fcc7dbc0d5")
+		)
+		(pin "6"
+			(uuid "9211d25c-b6ab-40ad-95f9-82625a643abb")
+		)
+		(instances
+			(project ""
+				(path "/d7e219ab-f530-45f5-8a23-0e6b6d2e3e0f/aff9ba91-cad3-4d4c-9149-201fa529c26c"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 97.79 270)
 		(unit 1)
@@ -1972,9 +2671,9 @@
 		(at 104.14 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef539c47-daab-4639-85a9-ed230abaf289")
 		(property "Reference" "U9"

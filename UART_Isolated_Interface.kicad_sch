@@ -1348,7 +1348,7 @@
 				)
 			)
 		)
-		(property "Value" "ISO7331C"
+		(property "Value" "TI ISO7221ADR"
 			(at 118.11 78.74 0)
 			(effects
 				(font
@@ -1366,7 +1366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7321c&fileType=pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28037.pdf"
 			(at 118.11 88.9 0)
 			(effects
 				(font
